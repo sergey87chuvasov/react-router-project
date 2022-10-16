@@ -11,7 +11,7 @@ const courses = [
   },
   {
     title: 'Complete Python Guide',
-    slug: 'react',
+    slug: 'python',
     id: 857,
   },
   {
