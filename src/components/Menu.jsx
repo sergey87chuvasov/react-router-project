@@ -5,11 +5,9 @@ const Menu = () => {
   return (
     <nav>
       {/* <Link to='.'>Home</Link> */}
-
       {/* <NavLink to='.' end>
         Home
       </NavLink> */}
-
       <NavLink
         style={({ isActive }) =>
           isActive ? { color: 'lightyellow', textDecoration: 'none' } : {}
@@ -19,6 +17,7 @@ const Menu = () => {
       >
         Home
       </NavLink>
+      {/* .active css*/}
       <NavLink to='courses'>Courses</NavLink>
       <NavLink
         className={({ isActive }) => (isActive ? 'activeLink' : 'link')}
